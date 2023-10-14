@@ -19,8 +19,8 @@ links.forEach((link) => {
 
 // //////////////////////////////////////
 
-// Function to generate the HTML code for a project
-function generateProjectHTML(projectName, imageSrc, company, role, year) {
+// Function to generate the HTML code for a desktop project section
+function generateProjectHTML(projectName, imageSrc, company, role, year, descp) {
   return `
       <div class='project'>
           <img class='snapshot' src='${imageSrc}'>
@@ -35,7 +35,7 @@ function generateProjectHTML(projectName, imageSrc, company, role, year) {
                       <li class='details'>${year}</li>
                   </ul>
               </div>
-              <p class='infos'>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+              <p class='infos'>${descp}</p>
               <ul class='languagess'>
                   <li class='languages' id='html1'>HTML</li>
                   <li class='languages' id='css1'>CSS</li>
@@ -51,11 +51,12 @@ function generateProjectHTML(projectName, imageSrc, company, role, year) {
 function generateWorkSectionHTML() {
   const projects = [
     {
-      projectName: 'Tonic',
-      imageSrc: 'img/snap.svg',
+      projectName: 'CLOUD-CHASER',
+      imageSrc: 'img/cloud-chaser.gif',
       company: 'CANOPY',
-      role: 'Back End Dev',
+      role: 'Front End',
       year: '2023',
+      descp: 'Experience a beautifully designed weather application that combines simplicity with comprehensive weather data, making it easy for users to plan their day.',
     },
     {
       projectName: 'Multi-Post stories',
@@ -63,6 +64,7 @@ function generateWorkSectionHTML() {
       company: 'CANOPY',
       role: 'Back End Dev',
       year: '2023',
+      descp: 'Experience a beautifully designed weather application that combines simplicity with comprehensive weather data, making it easy for users to plan their day.',
     },
     {
       projectName: 'Facebook 360',
@@ -70,6 +72,7 @@ function generateWorkSectionHTML() {
       company: 'FACEBOOK',
       role: 'Back End Dev',
       year: '2023',
+      descp: 'Experience a beautifully designed weather application that combines simplicity with comprehensive weather data, making it easy for users to plan their day.',
     },
     {
       projectName: 'Uber Navigation',
@@ -77,6 +80,7 @@ function generateWorkSectionHTML() {
       company: 'Uber',
       role: 'Back End Dev',
       year: '2023',
+      descp: 'Experience a beautifully designed weather application that combines simplicity with comprehensive weather data, making it easy for users to plan their day.',
     },
   ];
 
@@ -93,6 +97,7 @@ function generateWorkSectionHTML() {
       project.company,
       project.role,
       project.year,
+      project.descp,
     );
   });
 
@@ -112,7 +117,7 @@ document.getElementById('my-work-container').innerHTML = workSectionHTML;
 
 // ///////////////////////////////////////
 // Function to generate the HTML code for the mobile version of a project
-function generateMobileProjectHTML(projectName, imageSrc, company, role, year) {
+function generateMobileProjectHTML(projectName, imageSrc, company, role, year, descp) {
   return `
       <div class="projects">
           <img class="snapshots" src="${imageSrc}">
@@ -127,7 +132,7 @@ function generateMobileProjectHTML(projectName, imageSrc, company, role, year) {
                       <li class="detail">${year}</li>
                   </ul>
               </div>
-              <p class="info">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+              <p class="info">${descp}</p>
               <ul class="languages">
                   <li class="language" id="html">HTML</li>
                   <li class="language" id="css">CSS</li>
@@ -143,11 +148,12 @@ function generateMobileProjectHTML(projectName, imageSrc, company, role, year) {
 function generateMobileWorkSectionHTML() {
   const mobileProjects = [
     {
-      projectName: 'Tonic',
-      imageSrc: 'img/snap2.svg',
+      projectName: 'CLOUD-CHASER',
+      imageSrc: 'img/cloud-chaser.gif',
       company: 'CANOPY',
       role: 'Back End Dev',
       year: '2023',
+      descp: 'Experience a beautifully designed weather application that combines simplicity with comprehensive weather data, making it easy for users to plan their day.',
     },
     {
       projectName: 'Multi-Post Stories',
@@ -155,6 +161,7 @@ function generateMobileWorkSectionHTML() {
       company: 'CANOPY',
       role: 'Back End Dev',
       year: '2023',
+      descp: 'Experience a beautifully designed weather application that combines simplicity with comprehensive weather data, making it easy for users to plan their day.',
     },
     {
       projectName: 'Tonic',
@@ -162,6 +169,7 @@ function generateMobileWorkSectionHTML() {
       company: 'CANOPY',
       role: 'Back End Dev',
       year: '2023',
+      descp: 'Experience a beautifully designed weather application that combines simplicity with comprehensive weather data, making it easy for users to plan their day.',
     },
     {
       projectName: 'Multi-Post Stories',
@@ -169,6 +177,7 @@ function generateMobileWorkSectionHTML() {
       company: 'CANOPY',
       role: 'Back End Dev',
       year: '2023',
+      descp: 'Experience a beautifully designed weather application that combines simplicity with comprehensive weather data, making it easy for users to plan their day.',
     },
   ];
 
@@ -184,6 +193,7 @@ function generateMobileWorkSectionHTML() {
       project.company,
       project.role,
       project.year,
+      project.descp,
     );
   });
 
@@ -205,12 +215,12 @@ document.getElementById('my-work-container-mobile').innerHTML = mobileWorkSectio
 // JavaScript array to store project information
 const projects = [
   {
-    name: 'Tonic',
+    name: 'CLOUD-CHASER',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    featuredImage: 'img/pop-img.svg',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    technologies2: ['Ruby', 'Bootstrap'],
-    liveLink: 'https://example.com/project1',
+    featuredImage: 'img/cloud-chaser.gif',
+    technologies: ['HTML', 'CSS', 'React-Redux'],
+    technologies2: ['Jest', 'API'],
+    liveLink: 'https://cloud-chaser.netlify.app',
     sourceLink: 'https://github.com/Omwomo',
   },
   {
