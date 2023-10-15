@@ -49,7 +49,7 @@ function generateProjectHTML(projectName, imageSrc, company, role, year, descp) 
 
 const projectsSection = [
   {
-    projectName: 'CLOUD-CHASER',
+    projectName: 'cloud-chaser',
     imageSrc: 'img/cloud-chaser.gif',
     company: 'CANOPY',
     role: 'Front End',
@@ -57,8 +57,8 @@ const projectsSection = [
     descp: 'Experience a beautifully designed weather application that combines simplicity with comprehensive weather data, making it easy for users to plan their day.',
   },
   {
-    projectName: 'Multi-Post stories',
-    imageSrc: 'img/snap.svg',
+    projectName: 'series review portal',
+    imageSrc: 'img/series-review.png',
     company: 'CANOPY',
     role: 'Back End Dev',
     year: '2023',
@@ -180,7 +180,7 @@ document.getElementById('my-work-container-mobile').innerHTML = mobileWorkSectio
 // JavaScript array to store pop-up project informations for each project
 const projects = [
   {
-    name: 'CLOUD-CHASER',
+    name: 'cloud chaser',
     description: 'My weather application is more than just a tool for checking the forecast; it\'s a complete weather companion designed to enhance the user\'s experience. With a clean and intuitive interface, users can effortlessly access a wealth of information including temperature, humidity, wind speed, and more.',
     description2: 'The app utilizes reliable weather APIs to provide up-to-date data, ensuring users are equipped with the most accurate information. Whether you\'re planning a weekend getaway or simply want to know if you\'ll need an umbrella, this app has you covered.',
     featuredImage: 'img/cloud-chaser.gif',
@@ -190,10 +190,10 @@ const projects = [
     sourceLink: 'https://github.com/Omwomo',
   },
   {
-    name: 'Tonic',
+    name: 'series review portal',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     description2: 'The app utilizes reliable weather APIs to provide up-to-date data, ensuring users are equipped with the most accurate information. Whether you\'re planning a weekend getaway or simply want to know if you\'ll need an umbrella, this app has you covered.',
-    featuredImage: 'img/pop-img.svg',
+    featuredImage: 'img/series-review.png',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     technologies2: ['Ruby', 'Bootstrap'],
     liveLink: 'https://example.com/project2',
