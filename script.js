@@ -17,8 +17,6 @@ links.forEach((link) => {
 });
 // //////////////////////////////////////
 
-// //////////////////////////////////////
-
 // Function to generate the HTML code for desktop project section
 function generateProjectHTML(projectName, imageSrc, company, role, year, descp) {
   return `
@@ -335,8 +333,6 @@ closeButtons.addEventListener('click', closePopups);
 
 // Add form validation.
 document.getElementById('fs-frm').addEventListener('submit', (event) => {
-  // prevent default action
-
   // get email input value.
   const emailValue = document.getElementById('email-address').value;
 
