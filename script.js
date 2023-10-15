@@ -19,7 +19,7 @@ links.forEach((link) => {
 
 // //////////////////////////////////////
 
-// Function to generate the HTML code for a desktop project section
+// Function to generate the HTML code for desktop project section
 function generateProjectHTML(projectName, imageSrc, company, role, year, descp) {
   return `
       <div class='project'>
@@ -47,50 +47,52 @@ function generateProjectHTML(projectName, imageSrc, company, role, year, descp) 
   `;
 }
 
-// Function to generate the HTML code for the entire 'work' section
-function generateWorkSectionHTML() {
-  const projects = [
-    {
-      projectName: 'CLOUD-CHASER',
-      imageSrc: 'img/cloud-chaser.gif',
-      company: 'CANOPY',
-      role: 'Front End',
-      year: '2023',
-      descp: 'Experience a beautifully designed weather application that combines simplicity with comprehensive weather data, making it easy for users to plan their day.',
-    },
-    {
-      projectName: 'Multi-Post stories',
-      imageSrc: 'img/snap.svg',
-      company: 'CANOPY',
-      role: 'Back End Dev',
-      year: '2023',
-      descp: 'Experience a beautifully designed weather application that combines simplicity with comprehensive weather data, making it easy for users to plan their day.',
-    },
-    {
-      projectName: 'Facebook 360',
-      imageSrc: 'img/snap1.svg',
-      company: 'FACEBOOK',
-      role: 'Back End Dev',
-      year: '2023',
-      descp: 'Experience a beautifully designed weather application that combines simplicity with comprehensive weather data, making it easy for users to plan their day.',
-    },
-    {
-      projectName: 'Uber Navigation',
-      imageSrc: 'img/snap2.svg',
-      company: 'Uber',
-      role: 'Back End Dev',
-      year: '2023',
-      descp: 'Experience a beautifully designed weather application that combines simplicity with comprehensive weather data, making it easy for users to plan their day.',
-    },
-  ];
+// Array holding dynamic contents of projects section
 
+const projectsSection = [
+  {
+    projectName: 'CLOUD-CHASER',
+    imageSrc: 'img/cloud-chaser.gif',
+    company: 'CANOPY',
+    role: 'Front End',
+    year: '2023',
+    descp: 'Experience a beautifully designed weather application that combines simplicity with comprehensive weather data, making it easy for users to plan their day.',
+  },
+  {
+    projectName: 'Multi-Post stories',
+    imageSrc: 'img/snap.svg',
+    company: 'CANOPY',
+    role: 'Back End Dev',
+    year: '2023',
+    descp: 'Experience a beautifully designed weather application that combines simplicity with comprehensive weather data, making it easy for users to plan their day.',
+  },
+  {
+    projectName: 'Facebook 360',
+    imageSrc: 'img/snap1.svg',
+    company: 'FACEBOOK',
+    role: 'Back End Dev',
+    year: '2023',
+    descp: 'Experience a beautifully designed weather application that combines simplicity with comprehensive weather data, making it easy for users to plan their day.',
+  },
+  {
+    projectName: 'Uber Navigation',
+    imageSrc: 'img/snap2.svg',
+    company: 'Uber',
+    role: 'Back End Dev',
+    year: '2023',
+    descp: 'Experience a beautifully designed weather application that combines simplicity with comprehensive weather data, making it easy for users to plan their day.',
+  },
+];
+
+// Function to generate projects details for each project desktop version
+function generateWorkSectionHTML() {
   let workHTML = `
       <section class='work'>
           <section class='works' id='desktops'>
   `;
 
   // Generate HTML for each project
-  projects.forEach((project) => {
+  projectsSection.forEach((project) => {
     workHTML += generateProjectHTML(
       project.projectName,
       project.imageSrc,
@@ -116,7 +118,7 @@ const workSectionHTML = generateWorkSectionHTML();
 document.getElementById('my-work-container').innerHTML = workSectionHTML;
 
 // ///////////////////////////////////////
-// Function to generate the HTML code for the mobile version of a project
+// Function to generate HTML code for projects. Mobile version.
 function generateMobileProjectHTML(projectName, imageSrc, company, role, year, descp) {
   return `
       <div class="projects">
@@ -146,47 +148,12 @@ function generateMobileProjectHTML(projectName, imageSrc, company, role, year, d
 
 // Function to generate the HTML code for the entire mobile version of the "work" section
 function generateMobileWorkSectionHTML() {
-  const mobileProjects = [
-    {
-      projectName: 'CLOUD-CHASER',
-      imageSrc: 'img/cloud-chaser.gif',
-      company: 'CANOPY',
-      role: 'Back End Dev',
-      year: '2023',
-      descp: 'Experience a beautifully designed weather application that combines simplicity with comprehensive weather data, making it easy for users to plan their day.',
-    },
-    {
-      projectName: 'Multi-Post Stories',
-      imageSrc: 'img/snap3.svg',
-      company: 'CANOPY',
-      role: 'Back End Dev',
-      year: '2023',
-      descp: 'Experience a beautifully designed weather application that combines simplicity with comprehensive weather data, making it easy for users to plan their day.',
-    },
-    {
-      projectName: 'Tonic',
-      imageSrc: 'img/snap2.svg',
-      company: 'CANOPY',
-      role: 'Back End Dev',
-      year: '2023',
-      descp: 'Experience a beautifully designed weather application that combines simplicity with comprehensive weather data, making it easy for users to plan their day.',
-    },
-    {
-      projectName: 'Multi-Post Stories',
-      imageSrc: 'img/snap3.svg',
-      company: 'CANOPY',
-      role: 'Back End Dev',
-      year: '2023',
-      descp: 'Experience a beautifully designed weather application that combines simplicity with comprehensive weather data, making it easy for users to plan their day.',
-    },
-  ];
-
   let mobileWorkHTML = `
       <section class="work" id="mobiles">
   `;
 
   // Generate HTML for each mobile project
-  mobileProjects.forEach((project) => {
+  projectsSection.forEach((project) => {
     mobileWorkHTML += generateMobileProjectHTML(
       project.projectName,
       project.imageSrc,
@@ -212,7 +179,7 @@ document.getElementById('my-work-container-mobile').innerHTML = mobileWorkSectio
 
 // /////////////////////////////////////////
 
-// JavaScript array to store project information
+// JavaScript array to store pop-up project informations for each project
 const projects = [
   {
     name: 'CLOUD-CHASER',
@@ -259,8 +226,8 @@ function openPopup(projects) {
   const popupImage = popupContainer.querySelector('.pop-img img');
   const popupText = popupContainer.querySelector('.pop-text p');
   const popupLangs = popupContainer.querySelector('.pop-langs ul');
-  const liveLink = popupContainer.querySelector('.project-link');
-  const sourceLink = popupContainer.querySelector('.github-link');
+  const liveLink = popupContainer.querySelector('.live-link');
+  const sourceLink = popupContainer.querySelector('.git-link');
 
   // Populate project details
   popupHeading.textContent = projects.name;
