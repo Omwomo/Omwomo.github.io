@@ -183,7 +183,8 @@ document.getElementById('my-work-container-mobile').innerHTML = mobileWorkSectio
 const projects = [
   {
     name: 'CLOUD-CHASER',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    description: 'My weather application is more than just a tool for checking the forecast; it\'s a complete weather companion designed to enhance the user\'s experience. With a clean and intuitive interface, users can effortlessly access a wealth of information including temperature, humidity, wind speed, and more.',
+    description2: 'The app utilizes reliable weather APIs to provide up-to-date data, ensuring users are equipped with the most accurate information. Whether you\'re planning a weekend getaway or simply want to know if you\'ll need an umbrella, this app has you covered.',
     featuredImage: 'img/cloud-chaser.gif',
     technologies: ['HTML', 'CSS', 'React-Redux'],
     technologies2: ['Jest', 'API'],
@@ -193,6 +194,7 @@ const projects = [
   {
     name: 'Tonic',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    description2: 'The app utilizes reliable weather APIs to provide up-to-date data, ensuring users are equipped with the most accurate information. Whether you\'re planning a weekend getaway or simply want to know if you\'ll need an umbrella, this app has you covered.',
     featuredImage: 'img/pop-img.svg',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     technologies2: ['Ruby', 'Bootstrap'],
@@ -202,6 +204,7 @@ const projects = [
   {
     name: 'Tonic',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    description2: 'The app utilizes reliable weather APIs to provide up-to-date data, ensuring users are equipped with the most accurate information. Whether you\'re planning a weekend getaway or simply want to know if you\'ll need an umbrella, this app has you covered.',
     featuredImage: 'img/pop-img.svg',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     technologies2: ['Ruby', 'Bootstrap'],
@@ -211,6 +214,7 @@ const projects = [
   {
     name: 'Tonic',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    description2: 'The app utilizes reliable weather APIs to provide up-to-date data, ensuring users are equipped with the most accurate information. Whether you\'re planning a weekend getaway or simply want to know if you\'ll need an umbrella, this app has you covered.',
     featuredImage: 'img/pop-img.svg',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     technologies2: ['Ruby', 'Bootstrap'],
@@ -265,7 +269,7 @@ function openPopups(projects) {
   // Populate project details
   popupHeading.textContent = projects.name;
   popupText.textContent = projects.description;
-  popupText2.textContent = projects.description;
+  popupText2.textContent = projects.description2;
   popupImage.src = projects.featuredImage;
 
   // Add technologies to the list
@@ -326,6 +330,8 @@ closeButton.addEventListener('click', closePopup);
 // Attach click event listener to close button for desktop version
 const closeButtons = document.querySelector('.pop-btns');
 closeButtons.addEventListener('click', closePopups);
+
+// ///////////////////////////////////////////////////////////
 
 // Add form validation.
 document.getElementById('fs-frm').addEventListener('submit', (event) => {
