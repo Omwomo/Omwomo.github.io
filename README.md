@@ -3,7 +3,7 @@
 
 <div align="center">
 
-  <h3><b>Microverse-web-portfolio-project</b></h3>
+  <h3><b>Eugene's-portfolio</b></h3>
 
 </div>
 
@@ -33,17 +33,15 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Microverse-web-portfolio-project] <a name="about-project"></a>
+# 📖 [Eugene's-portfolio] <a name="about-project"></a>
 
-> Project description.
 
-**[Microverse-web-portfolio-project]** This project contains my web development profile which entails more information about my other projects and my specialisation.
+**[Eugene's-portfolio]** This project contains my web development profile which entails more information about my other projects and my specialisation.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Tech stack included in this project.
 
 <details>
   <summary>Client</summary>
@@ -67,11 +65,9 @@
   </ul>
 </details>
 
-<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Description of the project key features.
 
 - **[It has an html and css files.]**
 - **[the project is configured with html and css linters]**
@@ -79,21 +75,17 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo N/A
 
-> The link to the deployed project.
 
 - [Live Demo Link](https://omwomo.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Here's is how a developer could make use this project.
 
 To get a local copy up and running, follow these steps.
 
@@ -150,13 +142,10 @@ To run tests, run the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
-> All the project authors.
-
-👤 **Author1**
+👤 **Omwomo**
 
 - GitHub: [@githubhandle](https://github.com/Omwomo)
 - Twitter: [@twitterhandle](https://twitter.com/eugeneoduor9)
@@ -165,18 +154,15 @@ To run tests, run the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Description of future features that will be added to the project.
 
 - [ ] **[new_feature_1]**Add more sections in the html.
 - [ ] **[new_feature_2]**Add more styling to have an intresting page.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -186,27 +172,22 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> A message for users to support my project.
 
 If you like this project you greately encouraged contribute to it since it's an open source project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Credit to people who inspired my codebase.
 
 I would like to thank the Microverse team for the detailed guidance on this project. And my coding partners for their immense support.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
