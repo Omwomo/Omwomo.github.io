@@ -62,7 +62,7 @@ const projectsSection = [
     company: 'CANOPY',
     role: 'Back End Dev',
     year: '2023',
-    descp: 'Experience a beautifully designed weather application that combines simplicity with comprehensive weather data, making it easy for users to plan their day.',
+    descp: 'An innovative application designed to offer extensive information about a diverse array of active companies. The application features in-depth company profiles coupled with performance metrics, empowering users to glean valuable insights into their operations and achievements.',
   },
   {
     projectName: 'Facebook 360',
@@ -70,7 +70,7 @@ const projectsSection = [
     company: 'FACEBOOK',
     role: 'Back End Dev',
     year: '2023',
-    descp: 'Experience a beautifully designed weather application that combines simplicity with comprehensive weather data, making it easy for users to plan their day.',
+    descp: 'An innovative application designed to offer extensive information about a diverse array of active companies. The application features in-depth company profiles coupled with performance metrics, empowering users to glean valuable insights into their operations and achievements.',
   },
   {
     projectName: 'Uber Navigation',
