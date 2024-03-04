@@ -49,7 +49,7 @@ function generateProjectHTML(projectName, imageSrc, company, role, year, descp) 
 
 const projectsSection = [
   {
-    projectName: 'cloud-chaser',
+    projectName: 'Cloud Chaser',
     imageSrc: 'img/cloud-chaser.gif',
     company: 'CANOPY',
     role: 'Front End',
@@ -60,15 +60,15 @@ const projectsSection = [
     projectName: 'series review portal',
     imageSrc: 'img/series-review.png',
     company: 'CANOPY',
-    role: 'Back End Dev',
+    role: 'Front End',
     year: '2023',
-    descp: 'An innovative application designed to offer extensive information about a diverse array of active companies. The application features in-depth company profiles coupled with performance metrics, empowering users to glean valuable insights into their operations and achievements.',
+    descp: 'This is an interactive platform allowing users to explore, rate, and engage with their favorite TV shows. The "Series Review Portal" empowers users to comment, like, and delve into comprehensive details for an enriched entertainment experience.',
   },
   {
-    projectName: 'Facebook 360',
+    projectName: 'Trade Sage Elite',
     imageSrc: 'img/snap1.svg',
     company: 'FACEBOOK',
-    role: 'Back End Dev',
+    role: 'Front End',
     year: '2023',
     descp: 'An innovative application designed to offer extensive information about a diverse array of active companies. The application features in-depth company profiles coupled with performance metrics, empowering users to glean valuable insights into their operations and achievements.',
   },
