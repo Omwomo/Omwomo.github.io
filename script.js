@@ -66,7 +66,7 @@ const projectsSection = [
   },
   {
     projectName: 'Trade Sage Elite',
-    imageSrc: 'img/snap1.svg',
+    imageSrc: 'img/trade-sage-elite.png',
     company: 'FACEBOOK',
     role: 'Front End',
     year: '2023',
