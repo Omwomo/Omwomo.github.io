@@ -200,8 +200,8 @@ const projects = [
     sourceLink: 'https://github.com/Omwomo',
   },
   {
-    name: 'Tonic',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    name: 'Trade Sage Elite',
+    description: 'An innovative application designed to offer extensive information about a diverse array of active companies. The application features in-depth company profiles coupled with performance metrics, empowering users to glean valuable insights into their operations and achievements.',
     description2: 'The app utilizes reliable weather APIs to provide up-to-date data, ensuring users are equipped with the most accurate information. Whether you\'re planning a weekend getaway or simply want to know if you\'ll need an umbrella, this app has you covered.',
     featuredImage: 'img/pop-img.svg',
     technologies: ['HTML', 'CSS', 'JavaScript'],
