@@ -202,7 +202,7 @@ const projects = [
   {
     name: 'Trade Sage Elite',
     description: 'An innovative application designed to offer extensive information about a diverse array of active companies. The application features in-depth company profiles coupled with performance metrics, empowering users to glean valuable insights into their operations and achievements.',
-    description2: 'The app utilizes reliable weather APIs to provide up-to-date data, ensuring users are equipped with the most accurate information. Whether you\'re planning a weekend getaway or simply want to know if you\'ll need an umbrella, this app has you covered.',
+    description2: 'An innovative application designed to offer extensive information about a diverse array of active companies. The application features in-depth company profiles coupled with performance metrics, empowering users to glean valuable insights into their operations and achievements.',
     featuredImage: 'img/pop-img.svg',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     technologies2: ['Ruby', 'Bootstrap'],
