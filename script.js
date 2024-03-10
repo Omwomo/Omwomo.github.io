@@ -192,7 +192,7 @@ const projects = [
   {
     name: 'series review portal',
     description: 'This is an interactive platform allowing users to explore, rate, and engage with their favorite TV shows. The "Series Review Portal" empowers users to comment, like, and delve into comprehensive details for an enriched entertainment experience.',
-    description2: 'The app utilizes reliable weather APIs to provide up-to-date data, ensuring users are equipped with the most accurate information. Whether you\'re planning a weekend getaway or simply want to know if you\'ll need an umbrella, this app has you covered.',
+    description2: 'This is an interactive platform allowing users to explore, rate, and engage with their favorite TV shows. The "Series Review Portal" empowers users to comment, like, and delve into comprehensive details for an enriched entertainment experience.',
     featuredImage: 'img/series-review.png',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     technologies2: ['Ruby', 'Bootstrap'],
