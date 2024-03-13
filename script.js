@@ -205,7 +205,7 @@ const projects = [
     description2: 'An innovative application designed to offer extensive information about a diverse array of active companies. The application features in-depth company profiles coupled with performance metrics, empowering users to glean valuable insights into their operations and achievements.',
     featuredImage: 'img/pop-img.svg',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    technologies2: ['Ruby', 'Bootstrap'],
+    technologies2: ['Ruby', 'Rails'],
     liveLink: 'https://example.com/project2',
     sourceLink: 'https://github.com/Omwomo',
   },
